@@ -1,3 +1,3 @@
 = helm-charts
 
-Helm Charts for BrightMove
+Helm Charts for Prowave Consulting
