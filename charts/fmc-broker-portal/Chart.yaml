@@ -1,0 +1,18 @@
+apiVersion: v2
+name: fmc-broker-portal
+version: 1.0.0
+appVersion: 2.2.0
+description: Services for broker reporting
+type: application
+icon: https://bm-helm.s3.amazonaws.com/icons/welldyne.jpg
+keywords:
+  - broker
+  - portal
+sources:
+  - https://github.com/prowave/fmc-broker-portal.git
+maintainers:
+  - name: David Webb
+    email: dwebb@prowave.io
+deprecated: false
+annotations:
+  created: "09/24/2022"
