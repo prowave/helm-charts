@@ -5,6 +5,27 @@ entries:
       created: 09/24/2022
     apiVersion: v2
     appVersion: 2.2.0
+    created: "2022-09-25T01:08:14.019868588Z"
+    description: Services for broker reporting
+    digest: 3912cd983b38c58cd7517475e734bcdcee322db0333a3e556f9b7b1e82e5b980
+    icon: https://bm-helm.s3.amazonaws.com/icons/welldyne.jpg
+    keywords:
+    - broker
+    - portal
+    maintainers:
+    - email: dwebb@prowave.io
+      name: David Webb
+    name: fmc-broker-portal
+    sources:
+    - https://github.com/prowave/fmc-broker-portal.git
+    type: application
+    urls:
+    - https://github.com/prowave/helm-charts/releases/download/fmc-broker-portal-1.0.1/fmc-broker-portal-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
+      created: 09/24/2022
+    apiVersion: v2
+    appVersion: 2.2.0
     created: "2022-09-24T20:34:20.841687887Z"
     description: Services for broker reporting
     digest: 477b24f02eee24469c9e6bee6c3ac168990612205a4495c9becdcc2f1e95b86a
@@ -44,4 +65,4 @@ entries:
     urls:
     - https://github.com/prowave/helm-charts/releases/download/fmc-web-services-1.0.0/fmc-web-services-1.0.0.tgz
     version: 1.0.0
-generated: "2022-09-24T20:34:20.841696987Z"
+generated: "2022-09-25T01:08:14.019884188Z"
