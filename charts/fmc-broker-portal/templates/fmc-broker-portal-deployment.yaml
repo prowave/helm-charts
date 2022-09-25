@@ -33,7 +33,7 @@ spec:
               memory: "1Gi"
           env:
             - name: JAVA_OPTS
-              value: "-Dexternal.server.url={{ .Values.external.server.url }} -Dspring.profiles.active={{ .Values.profile }} -Denv={{ .Values.env }} -Xms1g -Xmx1g -Xrs -XX:+UseG1GC -XX:NewRatio=3 -Dorg.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=true"
+              value: "-Dexternal.server.url={{ .Values.external.server.url }} -Denv={{ .Values.env }} -Xms1g -Xmx1g -Xrs -XX:+UseG1GC -XX:NewRatio=3"
           ports:
             - containerPort: 8080
               name: tc-port
