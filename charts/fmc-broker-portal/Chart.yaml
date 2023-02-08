@@ -1,7 +1,7 @@
 apiVersion: v2
 name: fmc-broker-portal
-version: 1.0.2
-appVersion: 2.2.1
+version: 1.0.3
+appVersion: 2.2.2
 description: Services for broker reporting
 type: application
 icon: https://bm-helm.s3.amazonaws.com/icons/welldyne.jpg
