@@ -5,6 +5,27 @@ entries:
       created: 09/24/2022
     apiVersion: v2
     appVersion: 2.2.2
+    created: "2023-03-24T12:03:02.253687754Z"
+    description: Services for broker reporting
+    digest: f707d74049644d5726d3a6219d64711c75299463394834264311492f3e1b024e
+    icon: https://bm-helm.s3.amazonaws.com/icons/welldyne.jpg
+    keywords:
+    - broker
+    - portal
+    maintainers:
+    - email: dwebb@prowave.io
+      name: David Webb
+    name: fmc-broker-portal
+    sources:
+    - https://github.com/prowave/fmc-broker-portal.git
+    type: application
+    urls:
+    - https://github.com/prowave/helm-charts/releases/download/fmc-broker-portal-1.0.4/fmc-broker-portal-1.0.4.tgz
+    version: 1.0.4
+  - annotations:
+      created: 09/24/2022
+    apiVersion: v2
+    appVersion: 2.2.2
     created: "2023-02-08T18:08:21.950336571Z"
     description: Services for broker reporting
     digest: 16e6050cb3a45a1ad9022296bab3049ac11f20cc81af7844bfbca013ae998d55
@@ -90,6 +111,27 @@ entries:
       created: 09/22/2022
     apiVersion: v2
     appVersion: 5.6.1
+    created: "2023-03-24T12:03:02.440362155Z"
+    description: Services for drug pricing and pharmacy locating
+    digest: 6a3983202039e9908450d262828aa86643f7a57c24e1744b2d9490907d488a03
+    icon: https://bm-helm.s3.amazonaws.com/icons/uspc-logo.jpg
+    keywords:
+    - pricing
+    - drugs
+    maintainers:
+    - email: dwebb@prowave.io
+      name: David Webb
+    name: fmc-web-services
+    sources:
+    - https://github.com/prowave/fmc-web-services.git
+    type: application
+    urls:
+    - https://github.com/prowave/helm-charts/releases/download/fmc-web-services-1.0.1/fmc-web-services-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
+      created: 09/22/2022
+    apiVersion: v2
+    appVersion: 5.6.1
     created: "2022-09-24T18:36:11.478914861Z"
     description: Services for drug pricing and pharmacy locating
     digest: 58fb48bbccc57a63aab1e461445e96eb2dedde2d275652752d6643f53a7dad88
@@ -107,4 +149,4 @@ entries:
     urls:
     - https://github.com/prowave/helm-charts/releases/download/fmc-web-services-1.0.0/fmc-web-services-1.0.0.tgz
     version: 1.0.0
-generated: "2023-02-08T18:08:21.950369671Z"
+generated: "2023-03-24T12:03:02.440500254Z"
