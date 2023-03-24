@@ -1,6 +1,6 @@
 apiVersion: v2
 name: fmc-broker-portal
-version: 1.0.3
+version: 1.0.4
 appVersion: 2.2.2
 description: Services for broker reporting
 type: application

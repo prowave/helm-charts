@@ -6,7 +6,7 @@ metadata:
   labels:
     app: {{ .Release.Name }}-node
 spec:
-  replicas: {{ default 2 .Values.replicas }}
+  replicas: {{ default 1 .Values.replicaCount }}
   selector:
     matchLabels:
       app: {{ .Release.Name }}-node
@@ -26,11 +26,10 @@ spec:
                       - amd64
       containers:
         - name: {{ .Release.Name }}-server
-          image: prowave/{{ .Chart.Name }}:{{ .Chart.AppVersion }}
-          resources:
-            requests:
-              cpu: "500m"
-              memory: "1Gi"
+          image: "prowave/{{ .Chart.Name }}:{{ .Chart.AppVersion }}"
+          {{- if .Values.resources }}
+          resources: {{- toYaml .Values.resources | nindent 12 }}
+          {{- end }}
           env:
             - name: JAVA_OPTS
               value: "-Dspring.profiles.active={{ .Values.profile }} -Denv={{ .Values.env }} -Xms1g -Xmx1g -Xrs -XX:+UseG1GC -XX:NewRatio=3 -Dorg.apache.tomcat.util.buf.UDecoder.ALLOW_ENCODED_SLASH=true"
